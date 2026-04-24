@@ -30,4 +30,4 @@ def comp(a, b, m, n):
     mem = {}
     return lcs_recursive(a, b, m, n)
 
-print(comp('ab', 'b', 2, 1))
+print(comp('abcde', 'ace', 5, 3))
